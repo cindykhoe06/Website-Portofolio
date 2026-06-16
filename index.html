@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cindy</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">&lt; Cindy's <span>Portofolio</span> /&gt;</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#organization">Organization</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero section-padding">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <span class="greeting">Hello there! 👋 I am</span>
+                <h1 class="name">Cindy Permatasari Khoeniawan</h1>
+                <h2 class="role">A <span class="typing-text"></span><span class="cursor-blink">|</span></h2>
+                <p class="description"></p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image reveal delay-1">
+                <div class="image-wrapper">
+                    <div class="blob-shape"></div>
+                    <img src="assets/fotoprofile.jpeg" alt="Profile Picture" class="profile-pic">
+                    <div class="floating-icon icon-1">💻</div>
+                    <div class="floating-icon icon-2">&lt;/&gt;</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section-padding alt-bg">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About Me 🌸</h2>
+                <p>My journey & what I do</p>
+            </div>
+            <div class="about-content grid-2 reveal delay-1">
+                <div class="about-text card">
+                    <h3>Who Am I?</h3>
+                    <p>Computer Science student passionate about Front-End Development, UI/UX Design, and Project Management. Through various projects, competitions, and organizational experiences, developed strong skills in leadership, teamwork, and problem-solving. Enjoys designing user-centered digital solutions, transforming ideas into intuitive experiences, and continuously learning new technologies to create meaningful impact.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Education</h4>
+                        <p>Multimedia Nusantara University<br>Computer Science Major</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-heart"></i>
+                        <h4>Passion</h4>
+                        <p>Front-end Dev, Project Management, UI/UX Designer</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h4>Goals</h4>
+                        <p>Create impactful digital solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Featured Projects 🚀</h2>
+                <p>Some of my recent work and roles</p>
+            </div>
+            <div class="project-grid grid-3">
+                <!-- Project 1 -->
+                <div class="project-card card reveal">
+                    <div class="project-info">
+                        <h3>FLUFFY PAWS ADVENTURE</h3>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 15px;">Front-end Developer</p>
+                        <p>Built an interactive virtual pet game using React.js with mini-games, inventory, and status management. Designed engaging gameplay and responsive UI.</p>
+                        <div class="project-links" style="margin-top: auto;">
+                            <a href="https://uas-project-pti.vercel.app" target="_blank" class="link-btn primary"><i class="fas fa-external-link-alt"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card card reveal delay-1">
+                    <div class="project-info">
+                        <h3>Website Chun Qing Learning Center</h3>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 15px;">Front-end Developer</p>
+                        <p>Built a responsive web platform integrating course management and student registration, optimizing UI for mobile-friendly use.</p>
+                        <div class="project-links" style="margin-top: auto;">
+                            <a href="https://chunqing-frontend.onrender.com/" target="_blank" class="link-btn primary"><i class="fas fa-external-link-alt"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card card reveal delay-2">
+                    <div class="project-info">
+                        <h3>Cimb Niaga Cardless Cash Withdrawal Design</h3>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 15px;">UI/UX Designer & PM</p>
+                        <p>Managed Agile Scrum sprints for a prototype, leading to a 3rd Place win. Coordinated pitch decks and team presentation.</p>
+                        <div class="project-links" style="margin-top: auto;">
+                            <a href="https://bit.ly/4vgveW9" target="_blank" class="link-btn primary"><i class="fas fa-external-link-alt"></i> View Document</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card card reveal">
+                    <div class="project-info">
+                        <h3>Machine Learning</h3>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 15px;">Machine Learning Engineer</p>
+                        <p>Designed a complete ML pipeline from data preparation to deployment, using feature engineering and literature reviews to validate methodologies.</p>
+                        <div class="project-links" style="margin-top: auto;">
+                            <a href="https://bit.ly/3QnnHWk" target="_blank" class="link-btn primary"><i class="fas fa-external-link-alt"></i> View Document</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card card reveal delay-1">
+                    <div class="project-info">
+                        <h3>Health Hub Gading Serpong Design</h3>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 15px;">UI/UX Designer</p>
+                        <p>Designed a healthcare prototype with hospital services and teleconsultation. Created wireframes and optimized accessibility.</p>
+                        <div class="project-links" style="margin-top: auto;">
+                            <a href="https://bit.ly/4go52nM" target="_blank" class="link-btn primary"><i class="fas fa-external-link-alt"></i> View Design</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card card reveal delay-2">
+                    <div class="project-info">
+                        <h3>Ruang Nusa</h3>
+                        <p style="color: var(--primary); font-weight: 600; margin-bottom: 15px;">UI/UX Designer</p>
+                        <p>Designed a community-driven platform for sharing and discussing Indonesian culture through user-centered interfaces and interactive prototypes.</p>
+                        <div class="project-links" style="margin-top: auto;">
+                            <a href="https://bit.ly/4ebpZ3Y" target="_blank" class="link-btn primary"><i class="fas fa-external-link-alt"></i> View Design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization" class="projects section-padding alt-bg">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Organizations & Events 🌟</h2>
+                <p>My involvement, volunteering, and achievements</p>
+            </div>
+            <div class="org-carousel reveal delay-1">
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto garuda hacks.jpeg" alt="Garuda Hacks">
+                    <div class="org-caption">Garuda Hacks</div>
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto hmif.jpeg" alt="HMIF">
+                    <div class="org-caption">Project Manager in HMIF</div>
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto hmif night.jpeg" alt="HMIF Night">
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto byte.jpeg" alt="Byte">
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto hari-h byte.jpeg" alt="Byte Event">
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto lain-lain.jpeg" alt="Other Activity">
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto lomba cimb niaga.jpeg" alt="CIMB Niaga">
+                    <div class="org-caption">CIMB Niaga Competition</div>
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto relawan.jpeg" alt="Volunteer">
+                    <div class="org-caption">Volunteer</div>
+                </div>
+                <div class="org-slide">
+                    <img src="assets/foto halaman organization/foto relawan 2.jpeg" alt="Volunteer 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="skills section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Certifications 🎓</h2>
+                <p>My professional and academic achievements</p>
+            </div>
+            <div class="skills-container grid-3">
+                <div class="skill-category card reveal">
+                    <h3><i class="fas fa-language"></i> TOCFL</h3>
+                    <p>Test of Chinese as a Foreign Language</p>
+                    <a href="assets/foto halaman Certificate/TOCFL.pdf" target="_blank" class="link-btn primary" style="display: inline-block; margin-top: 15px;"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                </div>
+                <div class="skill-category card reveal delay-1">
+                    <h3><i class="fas fa-book"></i> UKBI</h3>
+                    <p>Uji Kemahiran Bahasa Indonesia</p>
+                    <a href="assets/foto halaman Certificate/SERTIFIKAT UKBI.pdf" target="_blank" class="link-btn primary" style="display: inline-block; margin-top: 15px;"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                </div>
+                <div class="skill-category card reveal delay-2">
+                    <h3><i class="fas fa-laptop-code"></i> Garuda Hacks</h3>
+                    <p>Hackathon Certificate</p>
+                    <a href="assets/foto halaman Certificate/Ghd .pdf" target="_blank" class="link-btn primary" style="display: inline-block; margin-top: 15px;"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                </div>
+                <div class="skill-category card reveal">
+                    <h3><i class="fas fa-cloud"></i> SAP Analytic Clouds</h3>
+                    <p>Completion Certificate</p>
+                    <a href="assets/foto halaman Certificate/ADSE20042024_Download sertifikat penyelesaian disini.pdf" target="_blank" class="link-btn primary" style="display: inline-block; margin-top: 15px;"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                </div>
+                <div class="skill-category card reveal delay-1">
+                    <h3><i class="fas fa-robot"></i> Dicoding AI</h3>
+                    <p>Belajar Dasar AI</p>
+                    <a href="assets/foto halaman Certificate/sertif dicoding.pdf" target="_blank" class="link-btn primary" style="display: inline-block; margin-top: 15px;"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding alt-bg">
+        <div class="container">
+            <div class="contact-box card reveal">
+                <div class="contact-info">
+                    <h2>Let's Connect! 💌</h2>
+                    <p>I'm currently open for internship opportunities, freelance projects, or just a friendly chat!</p>
+                    <ul class="contact-links">
+                        <li><a href="mailto:cindykhoe06@gmail.com"><i class="fas fa-envelope"></i> cindykhoe06@gmail.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/cindy-permatasari-khoeniawan-066b8a222/" target="_blank"><i class="fab fa-linkedin"></i> Cindy Permatasari Khoeniawan</a></li>
+                        <li><a href="https://github.com/cindykhoe06" target="_blank"><i class="fab fa-github"></i> cindykhoe06</a></li>
+                        <li><a href="https://wa.me/6289525218472" target="_blank"><i class="fab fa-whatsapp"></i> +62 895 2521 8472</a></li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form action="#">
+                        <div class="input-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Cindy. Created with grit and ☕</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
